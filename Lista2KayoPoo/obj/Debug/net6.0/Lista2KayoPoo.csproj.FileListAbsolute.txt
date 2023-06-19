@@ -1,0 +1,15 @@
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\bin\Debug\net6.0\Lista2KayoPoo.exe
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\bin\Debug\net6.0\Lista2KayoPoo.deps.json
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\bin\Debug\net6.0\Lista2KayoPoo.runtimeconfig.json
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\bin\Debug\net6.0\Lista2KayoPoo.dll
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\bin\Debug\net6.0\Lista2KayoPoo.pdb
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.csproj.AssemblyReference.cache
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.AssemblyInfoInputs.cache
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.AssemblyInfo.cs
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.csproj.CoreCompileInputs.cache
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.dll
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\refint\Lista2KayoPoo.dll
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.pdb
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\Lista2KayoPoo.genruntimeconfig.cache
+C:\Users\kayol\source\repos\Lista2KayoPoo\Lista2KayoPoo\obj\Debug\net6.0\ref\Lista2KayoPoo.dll
