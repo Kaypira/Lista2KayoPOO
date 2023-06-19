@@ -1,4 +1,7 @@
-﻿namespace Classes
+using System.ComponentModel;
+using System.Globalization;
+
+namespace Classes
 {
     public class Mofi
     {
@@ -79,6 +82,132 @@
 
         }
      
-        
+        public string exercicio6()
+        {
+            Console.WriteLine("Digite a temperatura em graus celsius "); Decimal c = Decimal.Parse(Console.ReadLine());
+            decimal f = (9 * c + 160) / 5;
+            return ($"A Temperatura  {c} em celsius é {f} em fahrenheit ");
+         }
+        public string exercicio7()
+
+        {
+            Console.WriteLine("Digite a temperatura em graus Fahrenheit "); Decimal f = Decimal.Parse(Console.ReadLine());
+            decimal c = (f - 32) * 5 / 9;
+            return ($"A Temperatura  {f} em fahrenheit é {c} em celsius ");
+
+
+
+        }
+        public string exercicio8()
+        {
+            
+            Console.WriteLine("Digite o raio da lata "); decimal r = decimal.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a altura da lata "); decimal a = decimal.Parse(Console.ReadLine());
+            decimal v = 3 * r * r * a;
+            return ("o volume da lata de oleo é " + v);
+
+        }
+        public string exercicio9()
+        {
+            Console.WriteLine("Digite sua idade em anos "); int idadea = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite os meses completos apos os anos "); int mesesa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a quantidade de dias apos os meses completos"); int diasa = int.Parse(Console.ReadLine());
+            int idadediaria = (idadea * 365) + (mesesa * 30) + diasa;
+            return ($" Sua idade em dias é de {idadediaria} ");
+        }
+        public string exercicio10()
+        {
+            Console.WriteLine("Digite o numero A "); int numa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o numero B "); int numb = int.Parse(Console.ReadLine());
+            if (numa == numb)
+            {
+                return ("eles sao iguais ");
+            }
+            if (numa != numb) 
+            {
+                Console.WriteLine(" eles são diferetes ");
+            }
+            if (numa > numb) Console.WriteLine(" o primeiro numero é maior ");
+            return (" o segundo numero é maior ");
+            
+
+
+        }
+
+        public string exercicio11()
+        {
+            Console.WriteLine("Digite o numero A "); int numa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o numero B "); int numb = int.Parse(Console.ReadLine());
+            int numc = numa;
+            numa = numb;
+            numb = numc;
+            return ($"os valores de a é {numa} e b {numb} ");
+
+
+        }
+        public string exercicio12()
+        {
+            Console.WriteLine("Digite um numero  "); int numa = int.Parse(Console.ReadLine());
+            if (numa >= 0) return ($" o modulo do nuemro é {numa} ");
+            return ($" o modulo do numero -{numa}");
+                }
+        public string exercicio13()
+        {
+            int[] decre = new int[3];
+            int i = 0;
+            do
+            {
+                Console.WriteLine("Digite um numero  "); decre[i] = int.Parse(Console.ReadLine());
+                i++;
+
+            } while (i != 3);
+            Array.Sort(decre);
+            Array.Reverse(decre);
+            string resulta = " ";
+            foreach (int a in decre)
+            {
+                resulta += a + "\n";
+               
+            }
+            return resulta;
+        }
+        public string exercicio14()
+        {
+            Console.WriteLine("Digite o numero A "); int numa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o numero B "); int numb = int.Parse(Console.ReadLine());
+            ;
+            if (numa >= numb)
+            {
+                int numx = numa - numb;
+                    Console.WriteLine("A Diferença do maior para o menor é de " + numx);
+              
+
+            }
+            return ("A Diferença do maior para o menor é de " + (numb - numa) );
+        }
+        public string exercicio15()
+        {
+            Console.WriteLine("Digite a primeira nota "); int notaa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a segunda nota "); int notab = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a terceira nota "); int notac = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a querta nota "); int notad = int.Parse(Console.ReadLine());
+            int mediaa = (notaa + notab + notac + notad) / 4;
+            if (mediaa >= 70) return (" voce esta aprovado parabens sua media foi " + mediaa);
+            Console.WriteLine("Digite a sua nota de recuperaçao  "); int recu1 = int.Parse(Console.ReadLine());
+            int raleu2 = mediaa + recu1 / 2;
+            if (raleu2 >= 70 ) return (" voce esta aprovado na recuperaçao sua media foi " + raleu2);
+            return ("voce esta reprovado :( " + raleu2);
+
+        }
+        public string exercicio16()
+        {
+            Console.WriteLine("Digite o numero A "); int numa = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o numero B "); int numb = int.Parse(Console.ReadLine());
+            if (numa > numb) return ($"o numero a {numa} é maior que o b {numb} ");
+            if (numa < numb) return ($"o numero b {numb} é maior que o a {numa} ");
+            return ("os dois numeros são iguais ");
+
+
+        }
     }
 }
