@@ -62,6 +62,54 @@ namespace Mofi2
                 case 16:
                     Console.WriteLine(Mofi.exercicio16());
                     break;
+                case 17:
+                    Console.WriteLine(Mofi.exercicio17());
+                    break;
+                case 18:
+                    Console.WriteLine(Mofi.exercicio18());
+                    break;
+                case 19:
+                    Console.WriteLine(Mofi.exercicio19());
+                    break;
+                case 20:
+                    Console.WriteLine(Mofi.exercicio20());
+                    break;
+                case 21:
+                    Console.WriteLine(Mofi.exercicio21());
+                    break;
+                case 22:
+                    Console.WriteLine(Mofi.exercicio22());
+                    break;
+                case 23:
+                    Console.WriteLine(Mofi.exercicio23());
+                    break;
+                case 24:
+                    Console.WriteLine(Mofi.exercicio24());
+                    break;
+                case 25:
+                    Console.WriteLine(Mofi.exercicio25());
+                    break;
+                case 26:
+                    Console.WriteLine(Mofi.exercicio26());
+                    break;
+                case 27:
+                    Console.WriteLine(Mofi.exercicio27());
+                    break;
+                case 28:
+                    Console.WriteLine(Mofi.exercicio28());
+                    break;
+                case 29:
+                    Console.WriteLine(Mofi.exercicio29());
+                    break;
+                case 30:
+                    Console.WriteLine(Mofi.exercicio30());
+                    break;
+                case 31:
+                    Console.WriteLine(Mofi.exercicio31());
+                    break;
+                case 32:
+                    Console.WriteLine(Mofi.exercicio32());
+                    break;
 
 
 
